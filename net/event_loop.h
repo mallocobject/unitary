@@ -27,7 +27,7 @@ class EventLoop
 	std::thread::id _tid;
 	std::vector<std::function<void()>> _funcs;
 	std::atomic<bool> _calling_func;
-	std::mutex _mtx;
+	mutable std::mutex _mtx;
 
 	void wakeup()
 	{

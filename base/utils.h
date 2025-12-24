@@ -1,5 +1,5 @@
-#ifndef __UTILS_H__
-#define __UTILS_H__
+#ifndef UNITARY_BASE_UTILS_H
+#define UNITARY_BASE_UTILS_H
 
 #include <cerrno>
 #include <cstdlib>
